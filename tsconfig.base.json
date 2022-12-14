@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@landingApp/*": ["apps/landing/*"],
-      "@apps/*": ["apps/*"]
+      "@apps/*": ["apps/*"],
+      "@landingApp/*": ["apps/landing/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
