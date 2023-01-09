@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'learnplatform-student-entry',
-  template: `<learnplatform-nx-welcome></learnplatform-nx-welcome>`,
+  template: ` 
+    <router-outlet></router-outlet> 
+  `,
 })
 export class RemoteEntryComponent {}
