@@ -1,0 +1,21 @@
+.menu-content {
+	height: 100%;
+	background-color: blue;
+	overflow-y: scroll;
+
+	.module {
+		margin: 1rem 0.2rem;
+		background-color: grey;
+		padding: 0.2rem;
+
+		.module-title {
+			color: orange;
+			font-size: 1.1rem;
+		}
+
+		.lesson {
+			cursor: pointer;
+			margin-left: 2rem;
+		}
+	}
+}

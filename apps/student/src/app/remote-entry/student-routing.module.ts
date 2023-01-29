@@ -31,6 +31,13 @@ export const routes: Route[] = [
         (m) => m.SettingsPageModule
       ),
   },
+  {
+    path: 'course',
+    loadChildren: () =>
+      import('./pages/lesson/lesson.module').then(
+        (m) => m.LessonModule
+      ),
+  },
 ];
 
 @NgModule({

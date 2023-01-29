@@ -1,0 +1,13 @@
+.lesson-content {
+  height: 100%;
+  background-color: green;
+  overflow-y: scroll;
+
+  .title {
+	  font-size: 1.4rem;
+	  text-align: center;
+	  padding: 0.5rem 0;
+	  margin-bottom: 1rem;
+	  background-color: grey;
+  }
+}
